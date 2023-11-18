@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+
+<body>
+
+    <div class="headerFixed">
+        <header>
+            <div class="Links">
+                <a class="aHover" href="Homepage.html">Home</a>
+                <a class="aHover" href="index.html">Kontakt</a>
+                <a class="aHover" href="index.html">Über Uns</a>
+                <a class="aHover" href="index.html">Investment</a>
+            </div>
+    
+            <div class="dropdown">
+                <div class="select">
+                    <span class="selected">Immobilien</span>
+                    <div class="caret"></div>
+                    <ul class="menu">
+                        <li>Zypern</1i>
+                        <li>Bulgarien</1i>
+                    </ul>
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="container">
+        <div class="swiper">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="Swiper-1.png" alt=""></div>
+                <div class="swiper-slide"><img src="Swiper-2.png" alt=""></div>
+                <div class="swiper-slide"><img src="Swiper-3.png" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },       
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });       
+    </script>
+ 
+    <img class="ÜberUnsImageLinks" src="ÜberUnsImage.png" alt="">
+    
+    <div class="ÜberUns">
+
+        <div class="ÜberUnsLogo">
+            <img class="ÜberUnsImage" src="Über Uns.png" alt="">
+            <div class="underline"></div>
+        </div>
+        
+        <div class="H1-2">
+            <h1 class="ÜberUnsH1">ÜBER UNS</h1>
+            <h2 class="ÜberUnsH2">
+                Mit langjähriger Erfahrung sind wir Ihr zuverlässiger
+                 Partner<br> für erstklassige Immobilien in Bulgarien
+                  und Nordzypern.<br> Unser engagiertes Team legt Wert
+                   auf Professionalität,<br> Transparenz und persönlichen
+                    Service, um sicherzustellen,<br> dass Ihre Anforderungen
+                     im Mittelpunkt stehen.<br> Vertrauen Sie auf unsere
+                      Expertise, um Ihr Traumhaus zu finden.<br> Kontaktieren
+                       Sie uns und lassen Sie uns gemeinsam in die<br> Welt
+                        exklusiver Immobilien eintauchen. </h2>
+        </div>
+
+        <div class="NZ-BG">
+            <p>
+                <a class="NordzypernÜU" href="Nordzypern.html">NORDZYPERN</a>
+            </p>
+            <p>
+                <a class="BulgarienÜU" href="Bulgarien.html"><br><br><br>BULGARIEN</a>
+            </p>
+        </div>
+        
+        <div class="imageContainer">
+            <div class="Angebote1"><img src="test2.png" alt=""></div>
+            <div class="Angebote2"><img src="test2.png" alt=""></div>
+            <div class="Angebote3"><img src="test2.png" alt=""></div>
+        </div>
+
+</body>
+</html>
